@@ -268,7 +268,7 @@
 
   <script>
     function copyToClipboard(link) {
-      const fullUrl = window.location.origin + '/' + link;
+      const fullUrl = window.location.origin + '/modding/' + link;
       navigator.clipboard.writeText(fullUrl)
         .then(() => alert('Link copied to clipboard: ' + fullUrl))
         .catch(() => alert('Failed to copy link.'));
