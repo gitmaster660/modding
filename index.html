@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>ITA Mods</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 40px;
+      background: #f9f9f9;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .model-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .model-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .model-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+
+    .model-name {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .button-group {
+      display: flex;
+      gap: 10px;
+      margin-top: auto;
+    }
+
+    button {
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .download-btn {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    .copy-btn {
+      background-color: #2196F3;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Character 3D Models</h1>
+
+  <div class="model-list">
+
+  <div class="model-card">
+    <img src="thumbnails/Ben10.jpg" alt="Ben10">
+    <div class="model-name">Ben10</div>
+    <div class="button-group">
+      <a href="characterModels/Ben10.fbx" download><button class="download-btn">Download</button></a>
+      <button class="copy-btn" onclick="copyToClipboard('characterModels/Ben10.fbx')">Copy Link</button>
+    </div>
+  </div>
+
+  <div class="model-card">
+    <img src="thumbnails/Captain_America.jpg" alt="Captain America">
+    <div class="model-name">Captain America</div>
+    <div class="button-group">
+      <a href="characterModels/Captain_America.fbx" download><button class="download-btn">Download</button></a>
+      <button class="copy-btn" onclick="copyToClipboard('characterModels/Captain_America.fbx')">Copy Link</button>
+    </div>
+  </div>
+
+  <div class="model-card">
+    <img src="thumbnails/CarryMinati.jpg" alt="Carryminati">
+    <div class="model-name">Carryminati</div>
+    <div class="button-group">
+      <a href="characterModels/CarryMinati.fbx" download><button class="download-btn">Download</button></a>
+      <button class="copy-btn" onclick="copyToClipboard('characterModels/CarryMinati.fbx')">Copy Link</button>
+    </div>
+  </div>
+
+  <div class="model-card">
+    <img src="thumbnails/DeadPool.jpg" alt="Deadpool">
+    <div class="model-name">Deadpool</div>
+    <div class="button-group">
+      <a href="characterModels/DeadPool.fbx" download><button class="download-btn">Download</button></a>
+      <button class="copy-btn" onclick="copyToClipboard('characterModels/DeadPool.fbx')">Copy Link</button>
+    </div>
+  </div>
+
+  <div class="model-card">
+    <img src="thumbnails/Franklin_Gta5.jpg" alt="Franklin Gta5">
+    <div class="model-name">Franklin Gta5</div>
+    <div class="button-group">
+      <a href="characterModels/Franklin_Gta5.fbx" download><button class="download-btn">Download</button></a>
+      <button class="copy-btn" onclick="copyToClipboard('characterModels/Franklin_Gta5.fbx')">Copy Link</button>
+    </div>
+  </div>
+
+  <div class="model-card">
+    <img src="thumbnails/GodZilla.jpg" alt="Godzilla">
+    <div class="model-name">Godzilla</div>
+    <div class="button-group">
+      <a href="characterModels/GodZilla.fbx" download><button class="download-btn">Download</button></a>
+      <button class="copy-btn" onclick="copyToClipboard('characterModels/GodZilla.fbx')">Copy Link</button>
+    </div>
+  </div>
+
+  <div class="model-card">
+    <img src="thumbnails/Granny.jpg" alt="Granny">
+    <div class="model-name">Granny</div>
+    <div class="button-group">
+      <a href="characterModels/Granny.fbx" download><button class="download-btn">Download</button></a>
+      <button class="copy-btn" onclick="copyToClipboard('characterModels/Granny.fbx')">Copy Link</button>
+    </div>
+  </div>
+
+  <div class="model-card">
+    <img src="thumbnails/Hulk.jpg" alt="Hulk">
+    <div class="model-name">Hulk</div>
+    <div class="button-group">
+      <a href="characterModels/Hulk.fbx" download><button class="download-btn">Download</button></a>
+      <button class="copy-btn" onclick="copyToClipboard('characterModels/Hulk.fbx')">Copy Link</button>
+    </div>
+  </div>
+
+  <div class="model-card">
+    <img src="thumbnails/IronMan_New.jpg" alt="Ironman New">
+    <div class="model-name">Ironman New</div>
+    <div class="button-group">
+      <a href="characterModels/IronMan_New.fbx" download><button class="download-btn">Download</button></a>
+      <button class="copy-btn" onclick="copyToClipboard('characterModels/IronMan_New.fbx')">Copy Link</button>
+    </div>
+  </div>
+
+  <div class="model-card">
+    <img src="thumbnails/Krrish.jpg" alt="Krrish">
+    <div class="model-name">Krrish</div>
+    <div class="button-group">
+      <a href="characterModels/Krrish.fbx" download><button class="download-btn">Download</button></a>
+      <button class="copy-btn" onclick="copyToClipboard('characterModels/Krrish.fbx')">Copy Link</button>
+    </div>
+  </div>
+
+  <div class="model-card">
+    <img src="thumbnails/Michael_Gta5.jpg" alt="Michael Gta5">
+    <div class="model-name">Michael Gta5</div>
+    <div class="button-group">
+      <a href="characterModels/Michael_Gta5.fbx" download><button class="download-btn">Download</button></a>
+      <button class="copy-btn" onclick="copyToClipboard('characterModels/Michael_Gta5.fbx')">Copy Link</button>
+    </div>
+  </div>
+
+  <div class="model-card">
+    <img src="thumbnails/Motu_MotuPatlu.jpg" alt="Motu Motupatlu">
+    <div class="model-name">Motu Motupatlu</div>
+    <div class="button-group">
+      <a href="characterModels/Motu_MotuPatlu.fbx" download><button class="download-btn">Download</button></a>
+      <button class="copy-btn" onclick="copyToClipboard('characterModels/Motu_MotuPatlu.fbx')">Copy Link</button>
+    </div>
+  </div>
+
+  <div class="model-card">
+    <img src="thumbnails/Patlu_MotuPatlu.jpg" alt="Patlu Motupatlu">
+    <div class="model-name">Patlu Motupatlu</div>
+    <div class="button-group">
+      <a href="characterModels/Patlu_MotuPatlu.fbx" download><button class="download-btn">Download</button></a>
+      <button class="copy-btn" onclick="copyToClipboard('characterModels/Patlu_MotuPatlu.fbx')">Copy Link</button>
+    </div>
+  </div>
+
+  <div class="model-card">
+    <img src="thumbnails/ScaryTeacher.jpg" alt="Scaryteacher">
+    <div class="model-name">Scaryteacher</div>
+    <div class="button-group">
+      <a href="characterModels/ScaryTeacher.fbx" download><button class="download-btn">Download</button></a>
+      <button class="copy-btn" onclick="copyToClipboard('characterModels/ScaryTeacher.fbx')">Copy Link</button>
+    </div>
+  </div>
+
+  <div class="model-card">
+    <img src="thumbnails/Shinchan.jpg" alt="Shinchan">
+    <div class="model-name">Shinchan</div>
+    <div class="button-group">
+      <a href="characterModels/Shinchan.fbx" download><button class="download-btn">Download</button></a>
+      <button class="copy-btn" onclick="copyToClipboard('characterModels/Shinchan.fbx')">Copy Link</button>
+    </div>
+  </div>
+
+  <div class="model-card">
+    <img src="thumbnails/SpiderMan_Red.jpg" alt="Spiderman Red">
+    <div class="model-name">Spiderman Red</div>
+    <div class="button-group">
+      <a href="characterModels/SpiderMan_Red.fbx" download><button class="download-btn">Download</button></a>
+      <button class="copy-btn" onclick="copyToClipboard('characterModels/SpiderMan_Red.fbx')">Copy Link</button>
+    </div>
+  </div>
+
+  <div class="model-card">
+    <img src="thumbnails/SquidGame_Doll.jpg" alt="Squidgame Doll">
+    <div class="model-name">Squidgame Doll</div>
+    <div class="button-group">
+      <a href="characterModels/SquidGame_Doll.fbx" download><button class="download-btn">Download</button></a>
+      <button class="copy-btn" onclick="copyToClipboard('characterModels/SquidGame_Doll.fbx')">Copy Link</button>
+    </div>
+  </div>
+
+  <div class="model-card">
+    <img src="thumbnails/Thanos.jpg" alt="Thanos">
+    <div class="model-name">Thanos</div>
+    <div class="button-group">
+      <a href="characterModels/Thanos.fbx" download><button class="download-btn">Download</button></a>
+      <button class="copy-btn" onclick="copyToClipboard('characterModels/Thanos.fbx')">Copy Link</button>
+    </div>
+  </div>
+
+  <div class="model-card">
+    <img src="thumbnails/Trevor_Gta5.jpg" alt="Trevor Gta5">
+    <div class="model-name">Trevor Gta5</div>
+    <div class="button-group">
+      <a href="characterModels/Trevor_Gta5.fbx" download><button class="download-btn">Download</button></a>
+      <button class="copy-btn" onclick="copyToClipboard('characterModels/Trevor_Gta5.fbx')">Copy Link</button>
+    </div>
+  </div>
+
+  <div class="model-card">
+    <img src="thumbnails/Tung_Tung_Sahur.jpg" alt="Tung Tung Sahur">
+    <div class="model-name">Tung Tung Sahur</div>
+    <div class="button-group">
+      <a href="characterModels/Tung_Tung_Sahur.fbx" download><button class="download-btn">Download</button></a>
+      <button class="copy-btn" onclick="copyToClipboard('characterModels/Tung_Tung_Sahur.fbx')">Copy Link</button>
+    </div>
+  </div>
+
+  <div class="model-card">
+    <img src="thumbnails/Zombie.jpg" alt="Zombie">
+    <div class="model-name">Zombie</div>
+    <div class="button-group">
+      <a href="characterModels/Zombie.fbx" download><button class="download-btn">Download</button></a>
+      <button class="copy-btn" onclick="copyToClipboard('characterModels/Zombie.fbx')">Copy Link</button>
+    </div>
+  </div>
+</div>
+
+  <script>
+    function copyToClipboard(link) {
+      const fullUrl = window.location.origin + '/' + link;
+      navigator.clipboard.writeText(fullUrl)
+        .then(() => alert('Link copied to clipboard: ' + fullUrl))
+        .catch(() => alert('Failed to copy link.'));
+    }
+  </script>
+
+</body>
+
+</html>
